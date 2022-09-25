@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="files/Bez nazwy-1.ico">
+    <script defer src="script.js"></script>
+    <title>Bartosz Załęski - HomePage</title>
+</head>
+
+<body class="body">
+    <!-- Jak by ktoś pytał o dziwne odnośniki do sekcji na stronie w różnych miejscach, to chodzi o menu które zostaje na górze ekranu. Gdyby linki były bezpośrednio na nagłówkach, menu zasłoniłoby nagłówki, więc umieściłem je trochę wyżej. Natomiast po kliknięciu wyłącz dynamiczne menu, łącza przekierowują już prosto do nagłówków, ponieważ wtedy menu nie zostaje już na górze ekranu. -->
+    <header class="header" id="hrefToSectionOne">
+        <img src="https://cdn.discordapp.com/attachments/692326682782203985/1017501163190497360/Bez_nazwy-1.png"
+            class="headerImage" alt="logo">
+        <h1 class="h1InHeader">Moja strona internetowa</h1>
+        <img src="https://cdn.discordapp.com/attachments/692326682782203985/1017501163190497360/Bez_nazwy-1.png"
+            class="headerImage" alt="logo">
+    </header>
+
+    <div class="wrapper">
+
+        <nav class="nav">
+            <a href="#hrefToSectionOne" class="navigation nav1">Wstęp</a>
+            <a href="#hrefToSectionTwo" class="navigation nav2">O mnie</a>
+            <a href="#hrefToSectionThree" class="navigation nav3">Info</a>
+            <a href="#hrefToSectionFour" class="navigation nav4">YouCode</a>
+        </nav>
+        <section class="settings">
+            <h2 class="heading heading1">Ustawiena Strony</h2>
+            <div class="allButtons">
+                <button class="buttonElement switchTheme">Włącz ciemny motyw</button>
+                <button class="buttonElement swithcNavWorking">Wyłącz menu dynamiczne</button>
+                <button class="buttonElement changeImgPosition">Zmień pozycję zdjęcia w zakładce wstęp</button>
+                <button class="buttonElement deleteImage">Usuń zdjęcie</button>
+            </div>
+        </section>
+        <main>
+            <section class="firstSection">
+                <h2 class="heading heading2">Wstęp</h2>
+                <p class="firstSectionParagraph"><img
+                        src="https://cdn.discordapp.com/attachments/692326682782203985/1017499955050598531/20220908_202104.jpg"
+                        class="firstSectionPhoto" alt="Zdjęcie Bartosza Załęskiego">Cześć! <br>Nazywam się
+                    <strong>Bartosz
+                        Załęski</strong>. <br>Jest to moja strona internetowa na której opowiem trochę o sobie i swoich
+                    planach na przyszłość.😉 Podziele się również moimi zainteresowaniami związanymi z programowaniem
+                    ale
+                    nie tylko i tym <span id="hrefToSectionTwo">co</span> lubię robić w wolnym czasie.
+                </p>
+            </section>
+            <section class="secoundSection">
+                <h2 class="heading heading3" id="ifNavSwithced_hrefToSectionTwo">Trochę o mnie</h2>
+                <p class="secoundSectionParagraph">Jestem <strong>Bartek</strong> interesuję się programowaniem. Od
+                    dziecka
+                    kręciło mnie to jak powstają strony internetowe i gry. Zawsze chciałem się dowiedzieć, jak to jest
+                    stworzyć swoją stronę lub grę. Swoje pierwsze strony tworzyłem w <em>kreatorze</em> <i>WebWave</i>.
+                    Byłem dzieckiem i chciałem stworzyć sklep, na którym będę sprzedawał itemki w grze <i>Minecraft</i>
+                    na
+                    jakimś serwerze <i>EHC</i>. Finalnie nic z tego nie wyniknęło, ale był to mój początek z zajawką do
+                    <b>front-end developingu.</b> Potem odpaliłem kurs na YouTube'ie i kupiłem książkę <i>Jon'a
+                        Duckett'a
+                        "Podręcznik Foront-End Developera"</i>. Szło mi nawet nie najgorzej, ale mój dobry kolega zaczął
+                    się
+                    uczyć <i>C++</i>, ja się tym nawet zaciekawiłem, bo chciałem też się nauczyć robić gry komputerowe.
+                    Nie
+                    trzeba być geniuszem, żeby się domyślić, że nie da się uczyć <i>HTML'a, CSS'a, JS'a, C++</i> w
+                    jednym
+                    momencie, <em>będąc w dodatku uczniem szkoły podstawowej</em>, który musi się uczyć także do
+                    sprawdzianów. Przez to wszystko przez jakiś rok programowałem może raz w miesiącu, czyli prawie
+                    wcale.
+                    Ostatnio jakoś przed końcem mojej 8 klasy stwierdziłem, że fajnie by było do tego wrócić i tak
+                    znalazłem
+                    kurs <b>YouCode</b>, <a href="#hrefToSectionFour" class="linkToSectionFour">więcej o moich
+                        dotychczasowych doświadczeniach przeczytasz
+                        tutaj.</a>
+                    <br>Poza programowaniem moja druga pasja to muzyka. Nie wiem, co bym zrobił, gdybym nie mógł słuchać
+                    muzyki, serio nie pamiętam, kiedy ostatni raz miałem dzień, w którym chociaż przez 1 min czegoś nie
+                    słuchałem. W dodatku sam gram na gitarze i <span id="hrefToSectionThree">uwielbiam</span> to robić.
+                </p>
+            </section>
+            <section class="thirsSection">
+                <h2 class="heading heading4" id="ifNavSwithced_hrefToSectionThree">Moje zainteresowania i ulubione
+                    utwory</h2>
+                <article>
+                    <div class="listBox">
+                        <h3 class="listHeader">Moje zainteresowania:</h3>
+                        <ul class="myList">
+                            <li class="listItem">Programowanie</li>
+                            <li class="listItem">Informatyka</li>
+                            <li class="listItem">Muzyka</li>
+                            <li class="listItem">Koszykówka</li>
+                            <li class="listItem">Chodzenie po górach</li>
+                        </ul>
+                    </div>
+                    <div class="tableBox">
+                        <table class="tableElement">
+                            <caption class="caption">Moje ulubione utwory</caption>
+                            <tr class="tableRow">
+                                <td></td>
+                                <th class="tableHeader tableCell" scope="col">Tytuł</th>
+                                <th class="tableHeader tableCell" scope="col">Album</th>
+                                <th class="tableHeader tableCell" scope="col">Wykonawca</th>
+                            </tr>
+                            <tr class="tableRow">
+                                <th class="tableHeader tableCell" scope="row">#1</th>
+                                <td class="tableCell">Demons</td>
+                                <td class="tableCell">Night Visions</td>
+                                <td class="tableCell">Imagine Dragons</td>
+                            </tr>
+                            <tr class="tableRow">
+                                <th class="tableHeader tableCell" scope="row">#2</th>
+                                <td class="tableCell" colspan="2">More Than You Know</td>
+                                <td class="tableCell">Axwell /\ Ingrosso</td>
+                            </tr>
+                            <tr class="tableRow">
+                                <th class="tableHeader tableCell" scope="row">#3</th>
+                                <td class="tableCell" colspan="2">Mad World</td>
+                                <td class="tableCell">Timmy Trumpet & Gabry Ponte</td>
+                            </tr>
+                            <tr class="tableRow">
+                                <th class="tableHeader tableCell" scope="row">#4</th>
+                                <td class="tableCell" colspan="2">This Is The Life</td>
+                                <td class="tableCell">Amy Macdonald</td>
+                            </tr>
+                            <tr class="tableRow">
+                                <th class="tableHeader tableCell" scope="row">#5</th>
+                                <td class="tableCell">Twilight of the Thunder God</td>
+                                <td class="tableCell" colspan="2"><span id="hrefToSectionFour">Amon Amarth</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </article>
+            </section>
+            <section class="youcodeSection">
+                <h2 class="heading heading5" id="ifNavSwithced_hrefToSectionFour">YouCode</h2>
+                <p class="youcodeSectionParagraph">Ten fragment poświęcę mojemu obecnemu kursowi
+                    <strong>YouCode</strong>. <br> Ostatnio szukałem kursu programowania, przeglądałem internet, aż
+                    natknąłem się na kurs <b>YouCode</b>, wtedy wyświetliła mi się informacja o próbnym live,
+                    stwierdziłem, że czemu by nie spróbować, bo co mi szkodzi. Potem okazało się, że to świetna decyzja,
+                    od razu spodobał mi się format kursu i postanowiłem, że go zakupię. Po przejściu już 3 modułu mogę
+                    stwierdzić, że to nie były pieniądze wydane w błoto. <em>Szczerze każdemu polecam ten kurs.</em>
+                </p>
+            </section>
+    </div>
+    </main>
+    <footer class="footer">
+        <img src="https://cdn.discordapp.com/attachments/692326682782203985/1017501163190497360/Bez_nazwy-1.png"
+            class="footerImage" alt="logo">
+        <p class="footerParagraph">Stopka</p>
+        <img src="https://cdn.discordapp.com/attachments/692326682782203985/1017501163190497360/Bez_nazwy-1.png"
+            class="footerImage" alt="logo">
+    </footer>
+</body>
+
+</html>
