@@ -1,3 +1,5 @@
+console.log("Witaj!");
+
 let changeThemeButton = document.querySelector(".switchTheme");
 let switchNav = document.querySelector(".swithcNavWorking");
 let changeImage = document.querySelector(".changeImgPosition");
