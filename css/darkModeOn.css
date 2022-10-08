@@ -1,28 +1,32 @@
-.darkBody {
+.body--darkMode {
     background-color: black;
     color: white;
 }
 
-.darkWrapper {
+.wrapper--darkMode {
     background-color: #3a3a3a;
 }
 
-.darkHeader, .darkFooter {
+.header--darkMode, .footer--darkMode {
     background-color: #202020;
 }
 
-.darkHeading {
+.section__heading--darkMode {
     border-bottom: 2px solid rgb(255 166 102);
 }
 
-.darkNav {
+.navigation--darkMode {
     background-color: rgb(255 204 168);
 }
 
-.darkNav:hover {
+.navigation--darkMode:hover {
     background-color: rgb(255 166 102);
 }
 
-.darkLink {
+.div__linkToSectionFour--darkMode {
     color: rgb(255 166 102);
+}
+
+.table__cell--headerDarkMode {
+    background-color: rgb(255 166 102);
 }
