@@ -14,3 +14,5 @@ This website it's my simple homepage.
 - HTML
 - CSS
 - JS
+
+ ❤
