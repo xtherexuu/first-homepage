@@ -1,0 +1,28 @@
+.tableBox {
+    overflow-x: auto;
+}
+
+.div__table {
+    border-collapse: collapse;
+    empty-cells: hide;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.table__caption {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.table__cell {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.table__cell--header {
+    background-color: rgb(102, 230, 255);
+    color: white;
+    letter-spacing: 0.2em;
+}

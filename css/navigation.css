@@ -1,0 +1,30 @@
+.navigation {
+    display: block;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+
+.navigation__link {
+    display: inherit;
+    width: 25%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 0;
+    background-color: rgb(211, 248, 255);
+    color: rgb(0, 0, 0);
+}
+
+.navigation__link:hover {
+    background-color: rgb(102, 230, 255);
+    padding: 10px 0;
+}
+
+
+.navigation--displayingChanged {
+    display: block;
+    overflow: hidden;
+    position: unset;
+}

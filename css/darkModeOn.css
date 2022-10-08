@@ -1,0 +1,28 @@
+.darkBody {
+    background-color: black;
+    color: white;
+}
+
+.darkWrapper {
+    background-color: #3a3a3a;
+}
+
+.darkHeader, .darkFooter {
+    background-color: #202020;
+}
+
+.darkHeading {
+    border-bottom: 2px solid rgb(255 166 102);
+}
+
+.darkNav {
+    background-color: rgb(255 204 168);
+}
+
+.darkNav:hover {
+    background-color: rgb(255 166 102);
+}
+
+.darkLink {
+    color: rgb(255 166 102);
+}

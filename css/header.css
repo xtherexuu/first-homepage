@@ -1,0 +1,16 @@
+.header {
+    background-color: #ddd;
+    display: flex;
+    margin: 0;
+}
+
+.header__image {
+    max-width: 64px;
+    margin: 0;
+}
+
+.header__heading {
+    flex-grow: 1;
+    text-align: center;
+    margin: auto;
+}

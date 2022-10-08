@@ -1,0 +1,16 @@
+footer {
+    background-color: #ddd;
+    display: flex;
+    margin: 0;
+}
+
+.footer__image {
+    max-width: 32px;
+    margin: 0;
+}
+
+.footer__paragraph {
+    flex-grow: 1;
+    text-align: center;
+    margin: auto;
+}
