@@ -1,7 +1,7 @@
 # HOMEPAGE
 
 
-## Demo - https://xtherexuu.github.io/homepage-test/
+## Demo - https://xtherexuu.github.io/first-homepage/
 
 ## Preview
 
