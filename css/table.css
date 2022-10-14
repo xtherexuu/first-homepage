@@ -2,7 +2,7 @@
     overflow-x: auto;
 }
 
-.div__table {
+.table {
     border-collapse: collapse;
     empty-cells: hide;
     max-width: 100%;
