@@ -6,6 +6,7 @@
     const changeImage = document.querySelector(".js-changeImgPosition");
     const deletePhoto = document.querySelector(".js-deleteImage");
     const photo = document.querySelector(".section__image");
+    const ImageText = document.querySelector(".js-displayTextChanged");
 
     const switchTheme = () => {
         const body = document.querySelector(".body");
@@ -31,7 +32,6 @@
         const tableHeader7 = document.querySelector(".js-tableHeader7");
         const tableHeader8 = document.querySelector(".js-tableHeader8");
 
-
         if (changeThemeButton.innerText === "Włącz ciemny motyw") {
             body.classList.toggle("body--darkMode");
             header.classList.toggle("header--darkMode");
@@ -56,8 +56,7 @@
             tableHeader7.classList.toggle("table__cell--headerDarkMode");
             tableHeader8.classList.toggle("table__cell--headerDarkMode");
             changeThemeButton.innerText = "Wyłącz ciemny motyw";
-        }
-        else {
+        } else {
             body.classList.toggle("body--darkMode");
             header.classList.toggle("header--darkMode");
             nav1.classList.toggle("navigation--darkMode");
@@ -82,7 +81,7 @@
             tableHeader8.classList.toggle("table__cell--headerDarkMode");
             changeThemeButton.innerText = "Włącz ciemny motyw";
         }
-    }
+    };
 
     const switchNavDisplaying = () => {
         const nav = document.querySelector(".navigation");
@@ -106,8 +105,7 @@
             nav3.setAttribute("href", attribute3_switched);
             nav4.setAttribute("href", attribute4_switched);
             switchNav.innerText = "Włącz menu dynamiczne";
-        }
-        else {
+        } else {
             nav.classList.toggle("navigation--displayingChanged");
             nav1.setAttribute("href", attribute1);
             nav2.setAttribute("href", attribute2);
@@ -115,26 +113,26 @@
             nav4.setAttribute("href", attribute4);
             switchNav.innerText = "Wyłącz menu dynamiczne";
         }
-    }
+    };
 
     const switchImageDisplaying = () => {
-        const ImageText = document.querySelector(".js-displayTextChanged");
-
         photo.classList.toggle("section__image--positionSwitched");
         ImageText.classList.toggle("section__paragraph--positionSwitched");
-    }
+    };
 
     const deleteImage = () => {
-        photo.remove();
+        ImageText.classList.toggle("section__paragraph--positionSwitched");
         deletePhoto.remove();
-    }
+        changeImage.remove();
+        photo.remove();
+    };
 
     const init = () => {
         changeThemeButton.addEventListener("click", switchTheme);
         switchNav.addEventListener("click", switchNavDisplaying);
         changeImage.addEventListener("click", switchImageDisplaying);
         deletePhoto.addEventListener("click", deleteImage);
-    }
+    };
 
     init();
 }
